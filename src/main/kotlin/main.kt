@@ -2,7 +2,7 @@ package main
 
 import main.mykotlin.*
 
-fun main(args:Array<String>){
+fun main() {
 
     //fun
     println(max(34,43))
@@ -20,4 +20,26 @@ fun main(args:Array<String>){
 
     //when
     println(getMnemonic(Color.YELLOW))
+
+    //while for
+    //printfizzBuzz()
+    printArrayList()
+
+    //exception
+    //testException()
+
+    //collection
+    printCollectionJavaClass()
+
+    //tostring
+    printToString()
+
+    //extension fun
+    printExtensionFun()
+    printExtensionToStringFun()
+
+    //extension property
+    printExtensionProperty()
+
+    testImplements()
 }
